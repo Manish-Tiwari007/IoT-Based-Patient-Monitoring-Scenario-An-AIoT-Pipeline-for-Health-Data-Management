@@ -1,17 +1,8 @@
-<img width="548" height="475" alt="Blood Oxygen Anamoly" src="https://github.com/user-attachments/assets/641e938b-b781-4424-8738-98fc660a6087" /># Mini Project Presentation
-
-IoT-Based Patient
-Monitoring Scenario
-An AIoT Pipeline for Health Data Management:
-From Acquisition to Anomaly Detection
-Manish Kumar Tiwari
-Research Student, MAS-Data Science
-Roll No: 025/MDS/03 | 2025 Batch
-Presented To:
-Asst. Prof. Dr. Rituraj Lamsal
-Department of Digital Technology
-Madan Bhandari University of Science and Technology
-2026-03-27
+# IoT-Based Patient Monitoring Scenario
+# An AIoT Pipeline for Health Data Management:From Acquisition to Anomaly Detection
+### Manish Kumar Tiwari
+### Research Student, MAS-Data Science
+### manish.kumar.tiwari@mbust.edu.np
 
 
 ---
@@ -344,6 +335,7 @@ svm_model.predict(X) == -1
 - 3. Path Length: Anomalies have shorter paths (isolated quickly)
 - 4. Anomaly Score: Average path length across all trees
 - 5. Classification: Score < threshold = anomaly
+     
 # Evaluation Metrics
 - Precision
 - True Positives / (TP + FP)
@@ -387,6 +379,8 @@ OneClassSVM
 
 
 # Data Pipeline Success
+<img width="1601" height="673" alt="Architecture" src="https://github.com/user-attachments/assets/88d46ef7-e097-42d1-abe6-b4db2838472c" />
+
 ✓ Generated 7,200 synthetic records
 ✓ Realistic physiological patterns
 ✓ Controlled anomaly injection
